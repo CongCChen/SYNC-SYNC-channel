@@ -10,7 +10,8 @@
 **WB channel:** Abusing Cache Line Dirty States to Leak Information in Commercial Processors(HPCA 2022)
 
 ### 1.重新测试数据（50组），完成fdatasync的标准偏差和标准误差测试
-![1687848834696](https://github.com/CongCChen/WB-MWB-channel/assets/37946054/db691373-7e7e-4363-a5ba-0bf6fe0a7644)
+![微信图片_20231027125638](https://github.com/CongCChen/WB-MWB-channel/assets/37946054/95b745e6-3928-41f4-bd98-69381593d8e8)
+
 
 ### 2.其他可以尝试的平台
 linux文件同步原语：sync、fsync、syncfs、fdatasync、msync。
