@@ -13,7 +13,7 @@
 ![微信图片_20231027125638](https://github.com/CongCChen/WB-MWB-channel/assets/37946054/95b745e6-3928-41f4-bd98-69381593d8e8)
 
 
-### 2.其他可以尝试的平台
+### 2.继续试验其他可能的平台
 linux文件同步原语：sync、fsync、syncfs、fdatasync、msync。
 
 POSIX（Portable Operating System Interface，可移植操作系统接口）是一个标准化的操作系统接口规范，旨在提供可移植性和互操作性。它定义了一组操作系统接口函数、命令和工具，并规定了这些接口的行为和语义。POSIX标准涵盖了许多操作系统领域，包括文件系统、进程管理、线程、信号处理、网络编程等。通过遵循POSIX标准，开发人员可以编写可移植的应用程序，这些应用程序可以在符合POSIX标准的操作系统上运行，而不需要进行大量的修改。
