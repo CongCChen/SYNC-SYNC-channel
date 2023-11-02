@@ -20,3 +20,29 @@ POSIX（Portable Operating System Interface，可移植操作系统接口）是�
 
 POSIX标准的实现可以在各种操作系统上找到，包括类UNIX系统（如Linux、BSD、macOS等）以及其他操作系统（如Windows的一些子系统）。这些实现通常提供了对POSIX接口的库和工具，使开发者能够在不同的平台上进行跨平台开发。需要注意的是，虽然Windows操作系统本身并不符合POSIX标准，但是在Windows上可以通过一些软件或子系统来实现对POSIX接口的支持，例如Cygwin、MSYS2、Windows Subsystem for Linux（WSL）等。这样开发者就可以在Windows平台上使用POSIX接口进行开发。
 POSIX标准对于促进软件的可移植性和互操作性起到了重要作用，使得开发者能够更方便地编写跨平台的应用程序，并且能够在不同的操作系统上共享和重用代码。
+
+## 2023.11.04工作汇报
+
+### 1.
+
+### 2. VMware安装macOS系统
+下载vmware workstation 17pro并激活，vmware workstation 17默认没有解锁macOS的安装选项，需要unlocker来解锁
+```
+https://github.com/DrDonk/unlocker/releases
+```
+解锁完成后先不要启动虚拟机！
+
+打开macOS 12.vmx文件，添加一下内容
+```
+cpuid.0.eax = "0000:0000:0000:0000:0000:0000:0000:1011"
+cpuid.0.ebx = "0111:0101:0110:1110:0110:0101:0100:0111"
+cpuid.0.ecx = "0110:1100:0110:0101:0111:0100:0110:1110"
+cpuid.0.edx = "0100:1001:0110:0101:0110:1110:0110:1001"
+cpuid.1.eax = "0000:0000:0000:0001:0000:0110:0111:0001"
+cpuid.1.ebx = "0000:0010:0000:0001:0000:1000:0000:0000"
+cpuid.1.ecx = "1000:0010:1001:1000:0010:0010:0000:0011"
+cpuid.1.edx = "0000:0111:1000:1011:1111:1011:1111:1111"
+vhv.enable = "FALSE"
+vpmc.enable = "FALSE"
+vvtd.enable = "FALSE"
+```
