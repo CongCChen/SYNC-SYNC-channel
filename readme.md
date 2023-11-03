@@ -55,7 +55,7 @@ vvtd.enable = "FALSE"
 
 **可能的原因:** Cygwin 并不是一个原生的 Linux 系统，它是在 Windows 上提供类似于 Linux/Unix 环境的兼容层。在 Cygwin 中，它使用一种称为 "DLL 代理" 的技术来拦截和转发系统调用，将 Linux/Unix 的系统调用转换为适应 Windows 内核的调用，从而在 Windows 上提供类似于 Linux 的 POSIX 兼容环境，并且可以运行许多基于 Linux 的程序和工具。
 
-### 4. 在macOS上测试同步函数
+### 4. 在macOS上测试同步函数（macOS12.5虚拟机）
 
 <img width="466" alt="a7580cc90db126b18d8ff4e9e9b88a0" src="https://github.com/CongCChen/SYNC-SYNC-channel/assets/37946054/d9158e93-69d0-49e3-ac64-32c04bc6ef4a">
 
