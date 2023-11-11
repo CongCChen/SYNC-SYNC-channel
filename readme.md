@@ -60,3 +60,10 @@ vvtd.enable = "FALSE"
 <img width="466" alt="a7580cc90db126b18d8ff4e9e9b88a0" src="https://github.com/CongCChen/SYNC-SYNC-channel/assets/37946054/d9158e93-69d0-49e3-ac64-32c04bc6ef4a">
 
 
+## 2023.11.11工作汇报
+
+### 1. 修改省重点研发申请书（已完成）
+
+### 2.修改论文（研究背景、研究动机、优化、试验评估）
+
+### 3.继续做自动化漏洞挖掘的实验（融合逐出集到突变地址中）
