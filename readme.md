@@ -60,6 +60,23 @@ vvtd.enable = "FALSE"
 <img width="466" alt="a7580cc90db126b18d8ff4e9e9b88a0" src="https://github.com/CongCChen/SYNC-SYNC-channel/assets/37946054/d9158e93-69d0-49e3-ac64-32c04bc6ef4a">
 
 
+## 2023.11.18工作汇报
+
+### 1. 完成单指令地址突变程序
+
+### 2. 修改论文（对比工作）
+
+### 3. 测试侧信道攻击（网站指纹）
+数据收集（Prime+Probe攻击收集每个网站缓存行访问时间）、建模（CNN、LSTM）
+
+* cookies.sqlite-wal 是 Mozilla Firefox 浏览器中的一个文件，它是用于存储浏览器的 Cookie 数据的 SQLite 数据库的写入日志文件。
+* data.safe.bin 文件存放的是经过加密保护的匿名化数据，这些数据可能包括用户的一些使用习惯、浏览器性能指标等。
+* places.sqlite 是 Mozilla Firefox 浏览器中的一个文件，它是存储浏览器历史记录和书签数据
+
+只能观察到打开新的网站，不能观察到网站类型
+
+
+
 
 ### 5. 修改省重点研发申请书（已完成）
 
